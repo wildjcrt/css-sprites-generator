@@ -8,3 +8,30 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+.card { width: 105px; height: 160px; float: left; }
+.street-01 { background: no-repeat center/cover url("/street-01.png"); }
+.street-02 { background: no-repeat center/cover url("/street-02.png"); }
+.street-03 { background: no-repeat center/cover url("/street-03.png"); }
+.street-04 { background: no-repeat center/cover url("/street-04.png"); }
+.street-05 { background: no-repeat center/cover url("/street-05.png"); }
+.street-06 { background: no-repeat center/cover url("/street-06.png"); }
+.street-07 { background: no-repeat center/cover url("/street-07.png"); }
+.street-08 { background: no-repeat center/cover url("/street-08.png"); }
+.street-09 { background: no-repeat center/cover url("/street-09.png"); }
+.street-10 { background: no-repeat center/cover url("/street-10.png"); }
+.street-11 { background: no-repeat center/cover url("/street-11.png"); }
+.street-12 { background: no-repeat center/cover url("/street-12.png"); }
+.street-13 { background: no-repeat center/cover url("/street-13.png"); }
+.street-14 { background: no-repeat center/cover url("/street-14.png"); }
+.event-1908 { background: no-repeat center/cover url("/event-1908.png"); }
+.event-1920 { background: no-repeat center/cover url("/event-1920.png"); }
+.event-1923 { background: no-repeat center/cover url("/event-1923.png"); }
+.event-1931 { background: no-repeat center/cover url("/event-1931.png"); }
+.event-1945 { background: no-repeat center/cover url("/event-1945.png"); }
+.event-1947 { background: no-repeat center/cover url("/event-1947.png"); }
+
+.tapped-card { width: 160px; height: 105px; float: left; }
+.warehouse { background: no-repeat center/cover url("/warehouse.png"); }
+.rest { background: no-repeat center/cover url("/rest.png"); }
+.goals { background: no-repeat center/cover url("/goals.png"); }
