@@ -40,7 +40,8 @@ namespace :sprites do
     sprited_others_path = "#{images_root_path}/others.png"
     system("convert #{others.join(' ')} +append #{sprited_others_path}")
 
-    system("convert #{sprited_streets_path} #{sprited_events_path} #{sprited_others_path} -append #{images_root_path}/eirakuchotori-resources.png")
+    scores_path = "#{images_root_path}/scores.png"
+    system("convert #{sprited_streets_path} #{sprited_events_path} #{sprited_others_path} #{scores_path} -append #{images_root_path}/eirakuchotori-resources.png")
     system("rm #{sprited_streets_path}")
     system("rm #{sprited_events_path}")
     system("rm #{sprited_others_path}")
