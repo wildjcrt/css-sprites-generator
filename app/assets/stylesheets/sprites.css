@@ -1,0 +1,109 @@
+.resource {
+  background: no-repeat center url('/eirakuchotori-resources.png');
+}
+
+.card {
+  background-size: 1680px;
+}
+
+#street-1 {
+  background-position: -0px 0px;
+}
+
+#street-2 {
+  background-position: -120px 0px;
+}
+
+#street-3 {
+  background-position: -240px 0px;
+}
+
+#street-4 {
+  background-position: -360px 0px;
+}
+
+#street-5 {
+  background-position: -480px 0px;
+}
+
+#street-6 {
+  background-position: -600px 0px;
+}
+
+#street-7 {
+  background-position: -720px 0px;
+}
+
+#street-8 {
+  background-position: -840px 0px;
+}
+
+#street-9 {
+  background-position: -960px 0px;
+}
+
+#street-10 {
+  background-position: -1080px 0px;
+}
+
+#street-11 {
+  background-position: -1200px 0px;
+}
+
+#street-12 {
+  background-position: -1320px 0px;
+}
+
+#street-13 {
+  background-position: -1440px 0px;
+}
+
+#street-14 {
+  background-position: -1560px 0px;
+}
+
+#event-1908 {
+  background-position: -0px -182px;
+}
+
+#event-1920 {
+  background-position: -120px -182px;
+}
+
+#event-1923 {
+  background-position: -240px -182px;
+}
+
+#event-1931 {
+  background-position: -360px -182px;
+}
+
+#event-1945 {
+  background-position: -480px -182px;
+}
+
+#event-1947 {
+  background-position: -600px -182px;
+}
+
+.tapped {
+  background-size: 2291px;
+}
+
+#goals {
+  background-position: -0px -496px;
+}
+
+#rest {
+  background-position: -248px -496px;
+}
+
+#warehouse-1, #warehouse-2 {
+  background-position: -496px -496px;
+}
+
+#scores {
+  background-size: 4970px;
+  background-position: 0px -1431px;
+}
+
