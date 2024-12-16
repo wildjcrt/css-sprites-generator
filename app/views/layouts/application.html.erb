@@ -23,30 +23,62 @@
   </head>
 
   <body>
-    <div class="card street-01"></div>
-    <div class="card street-02"></div>
-    <div class="card street-03"></div>
-    <div class="card street-04"></div>
-    <div class="card street-05"></div>
-    <div class="card street-06"></div>
-    <div class="card street-07"></div>
-    <div class="card street-08"></div>
-    <div class="card street-09"></div>
-    <div class="card street-10"></div>
-    <div class="card street-11"></div>
-    <div class="card street-12"></div>
-    <div class="card street-13"></div>
-    <div class="card street-14"></div>
-    <div class="card event-1908"></div>
-    <div class="card event-1920"></div>
-    <div class="card event-1923"></div>
-    <div class="card event-1931"></div>
-    <div class="card event-1945"></div>
-    <div class="card event-1947"></div>
-    <div style="clear:both"></div>
-    <div class="tapped-card warehouse"></div>
-    <div class="tapped-card rest"></div>
-    <div class="tapped-card goals"></div>
+    <div id="game_play_area" class="mx-auto w-[900px]">
+      <!-- 1st Row -->
+      <div class="flex justify-center gap-2 mb-10">
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div id="warehouse-1" class="resource tapped w-[248px] h-[163px] bg-gray-200 items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+      </div>
+
+      <!-- 2nd Row -->
+      <div class="grid grid-cols-7 gap-2 mb-10">
+        <div id="rest" class="resource tapped w-[248px] h-[163px] bg-gray-200 items-center justify-center col-span-2"></div>
+        <div id="goals" class="resource tapped w-[248px] h-[163px] bg-gray-200 items-center justify-center col-span-2"></div>
+        <div class="items-center justify-center"></div>
+        <div id="event-1908" class="resource card bg-gray-200 w-[120px] h-[182px] items-center justify-center"></div>
+      </div>
+
+      <!-- 3rd Row -->
+      <div class="grid mb-2">
+        <div id="scores" class="resource h-[52px] bg-gray-200 items-center justify-center"></div>
+      </div>
+
+      <!-- 4th Row -->
+      <div class="grid grid-cols-7 gap-2 mb-2">
+        <div id="street-1" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-2" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-3" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-4" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-5" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-6" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-7" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+      </div>
+
+      <!-- 5th Row -->
+      <div class="grid grid-cols-7 gap-2 mb-10">
+        <div id="street-8" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-9" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-10" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-11" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-12" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-13" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+        <div id="street-14" class="resource card w-[120px] h-[182px] bg-gray-200 items-center justify-center"></div>
+      </div>
+
+      <!-- 6th Row -->
+      <div class="flex justify-center gap-2">
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div id="warehouse-2" class="resource tapped w-[248px] h-[163px] bg-gray-200 items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="w-[120px] flex items-center justify-center"></div>
+      </div>
+    </div>
     <%= yield %>
   </body>
 </html>
