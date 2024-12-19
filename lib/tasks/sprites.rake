@@ -89,7 +89,7 @@ namespace :sprites do
         CSS
       end
 
-      # for tapped card: warehouse, rest and goals
+      # for tapped card: warehouse
       image_width = 1076
       tapeed_card_width = 248
       background_size = (tapeed_card_width * bg_width.to_f / image_width).round
@@ -101,34 +101,19 @@ namespace :sprites do
       CSS
 
       # street 和 event 高度都是 1076，所以橫卡起始高度為 1076+1076
-      position_height = ((background_size / bg_width.to_f) * (1076+1076)).round
-      position_width = ((background_size / bg_width.to_f) * image_width).round
-      %w[goals rest warehouse].each_with_index do |name, i|
-        if name == 'warehouse'
-          file.puts <<~CSS
-            ##{name}-1, ##{name}-2 {
-              background-position: -#{position_width*i}px -#{position_height}px;
-            }
-            #{}
-          CSS
-        else
-          file.puts <<~CSS
-            ##{name} {
-              background-position: -#{position_width*i}px -#{position_height}px;
-            }
-            #{}
-          CSS
-        end
-      end
-
-      image_width = 1800
-      score_width = 900
-      background_size = (score_width * bg_width.to_f / image_width).round
-      position_height = ((background_size / bg_width.to_f) * (1076+1076+710)).round
+      # scores-goals-rest.png 寬度 900
+      start_height = 1076+1076
+      position_height = ((background_size / bg_width.to_f) * start_height).round
+      position_width = ((background_size / bg_width.to_f) * 900).round
       file.puts <<~CSS
-        #scores {
-          background-size: #{background_size}px;
-          background-position: 0px -#{position_height}px;
+        #warehouse-1, #warehouse-2 {
+          background-position: -#{position_width}px -#{position_height}px;
+        }
+        #{}
+      CSS
+      file.puts <<~CSS
+        #scores-goals-rest {
+          background-position: 0px -#{start_height}px;
         }
         #{}
       CSS

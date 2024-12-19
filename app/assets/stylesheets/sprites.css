@@ -90,20 +90,10 @@
   background-size: 2291px;
 }
 
-#goals {
-  background-position: -0px -496px;
-}
-
-#rest {
-  background-position: -248px -496px;
-}
-
 #warehouse-1, #warehouse-2 {
-  background-position: -496px -496px;
+  background-position: -207px -496px;
 }
 
-#scores {
-  background-size: 4970px;
-  background-position: 0px -1431px;
+#scores-goals-rest {
+  background-position: 0px -2152px;
 }
-
