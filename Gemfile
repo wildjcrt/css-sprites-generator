@@ -20,6 +20,8 @@ gem "jbuilder"
 # Use scss
 gem "dartsass-rails"
 
+gem "tailwindcss-rails", "~> 3.0"
+
 gem "image_processing"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
