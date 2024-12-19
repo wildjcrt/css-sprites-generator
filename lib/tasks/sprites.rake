@@ -33,15 +33,13 @@ namespace :sprites do
     system("convert #{events.join(' ')} +append #{sprited_events_path}")
 
     others = [
-      "#{images_root_path}/goals.png",
-      "#{images_root_path}/rest.png",
+      "#{images_root_path}/scores-goals-rest.png",
       "#{images_root_path}/warehouse.png",
     ]
     sprited_others_path = "#{images_root_path}/others.png"
     system("convert #{others.join(' ')} +append #{sprited_others_path}")
 
-    scores_path = "#{images_root_path}/scores.png"
-    system("convert #{sprited_streets_path} #{sprited_events_path} #{sprited_others_path} #{scores_path} -append #{images_root_path}/eirakuchotori-resources.png")
+    system("convert #{sprited_streets_path} #{sprited_events_path} #{sprited_others_path} -append #{images_root_path}/eirakuchotori-resources.png")
     system("rm #{sprited_streets_path}")
     system("rm #{sprited_events_path}")
     system("rm #{sprited_others_path}")
