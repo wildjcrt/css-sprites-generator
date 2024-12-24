@@ -78,8 +78,10 @@ namespace :sprites do
       %w[1908 1920 1923 1931 1945 1947].each_with_index do |year, i|
         file.puts <<~CSS
           #event-#{year} {
+            background: no-repeat center url('/eirakuchotori-resources.png');
             background-size: #{background_size}px;
             background-position: -#{position_width*i}px -#{position_height}px;
+            height: 182px;
           }
           #{}
         CSS

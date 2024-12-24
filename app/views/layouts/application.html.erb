@@ -23,18 +23,17 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body style="background: #ebbe4d">
     <div id="game_play_area">
 
       <div id="player-tables" class="mx-auto w-[900px]">
         <!-- 1st Row -->
-        <div class="flex justify-center gap-2 mb-5">
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div id="warehouse-1" class="resource w-[248px] h-[163px] bg-gray-200 items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="grid grid-cols-7 gap-2 mb-5">
+          <div class="w-[120px] items-center justify-center"></div>
+          <div class="w-[120px] items-center justify-center"></div>
+          <div id="warehouse-1" class="resource w-[248px] h-[163px] bg-gray-200 col-span-2 items-center justify-center"></div>
+          <div class="w-[248px] h-[163px] bg-gray-200 col-span-2 items-center justify-center"></div>
+          <div class="w-[120px] items-center justify-center"></div>
         </div>
 
         <!-- 2nd Row -->
@@ -60,19 +59,19 @@
         </div>
 
         <!-- 4th Row -->
-        <div class="grid mb-5">
-          <div class="resource w-[120px] flex items-center justify-center"></div>
-          <div id="scores-goals-rest" class="resource w-[450px] h-[150px] mx-auto bg-gray-200 items-center justify-center"></div>
+        <div class="grid grid-cols-7 gap-2 mb-5">
+          <div class="items-center justify-center"></div>
+          <div class="w-[120px] items-center justify-center"></div>
+          <div id="scores-goals-rest" class="resource w-[450px] h-[150px] bg-gray-200 items-center justify-center"></div>
         </div>
 
         <!-- 5th Row -->
-        <div class="flex justify-center gap-2">
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div id="warehouse-2" class="resource w-[248px] h-[163px] bg-gray-200 items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
-          <div class="w-[120px] flex items-center justify-center"></div>
+        <div class="grid grid-cols-7 gap-2 mb-5">
+          <div class="w-[120px] items-center justify-center"></div>
+          <div class="w-[120px] items-center justify-center"></div>
+          <div id="warehouse-2" class="resource w-[248px] h-[163px] bg-gray-200 col-span-2 items-center justify-center"></div>
+          <div class="w-[248px] h-[163px] bg-gray-200 col-span-2 items-center justify-center"></div>
+          <div class="w-[120px] items-center justify-center"></div>
         </div>
       </div>
 

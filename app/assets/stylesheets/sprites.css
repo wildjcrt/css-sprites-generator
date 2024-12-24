@@ -73,33 +73,45 @@
 }
 
 #event-1908 {
+  background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -0px -182px;
+  height: 182px;
 }
 
 #event-1920 {
+  background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -120px -182px;
+  height: 182px;
 }
 
 #event-1923 {
+  background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -240px -182px;
+  height: 182px;
 }
 
 #event-1931 {
+  background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -360px -182px;
+  height: 182px;
 }
 
 #event-1945 {
+  background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -480px -182px;
+  height: 182px;
 }
 
 #event-1947 {
+  background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -600px -182px;
+  height: 182px;
 }
 
 #warehouse-1, #warehouse-2 {
