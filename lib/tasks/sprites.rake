@@ -62,17 +62,12 @@ namespace :sprites do
       image_width = 710
       card_width = 120
       background_size = (card_width * bg_width.to_f / image_width).round
-      file.puts <<~CSS
-        .card {
-          background-size: #{background_size}px;
-        }
-        #{}
-      CSS
 
       position_width = ((background_size / bg_width.to_f) * image_width).round
       (1..14).each do |i|
         file.puts <<~CSS
           #street-#{i} {
+            background-size: #{background_size}px;
             background-position: -#{position_width*(i-1)}px 0px;
           }
           #{}
@@ -83,6 +78,7 @@ namespace :sprites do
       %w[1908 1920 1923 1931 1945 1947].each_with_index do |year, i|
         file.puts <<~CSS
           #event-#{year} {
+            background-size: #{background_size}px;
             background-position: -#{position_width*i}px -#{position_height}px;
           }
           #{}
@@ -93,12 +89,6 @@ namespace :sprites do
       image_width = 1076
       tapeed_card_width = 248
       background_size = (tapeed_card_width * bg_width.to_f / image_width).round
-      file.puts <<~CSS
-        .tapped {
-          background-size: #{background_size}px;
-        }
-        #{}
-      CSS
 
       # street 和 event 高度都是 1076，所以橫卡起始高度為 1076+1076
       # scores-goals-rest.png 寬度 900
@@ -107,13 +97,20 @@ namespace :sprites do
       position_width = ((background_size / bg_width.to_f) * 900).round
       file.puts <<~CSS
         #warehouse-1, #warehouse-2 {
+          background-size: #{background_size}px;
           background-position: -#{position_width}px -#{position_height}px;
         }
         #{}
       CSS
+
+      image_width = 900
+      board_width = 450
+      background_size = (board_width * bg_width.to_f / image_width).round
+      position_height = ((background_size / bg_width.to_f) * start_height).round
       file.puts <<~CSS
         #scores-goals-rest {
-          background-position: 0px -#{start_height}px;
+          background-size: #{background_size}px;
+          background-position: 0px -#{position_height}px;
         }
         #{}
       CSS
