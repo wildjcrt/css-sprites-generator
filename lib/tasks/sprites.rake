@@ -43,6 +43,8 @@ namespace :sprites do
     system("rm #{sprited_streets_path}")
     system("rm #{sprited_events_path}")
     system("rm #{sprited_others_path}")
+
+    system("convert #{images_root_path}/Cube_top.png #{images_root_path}/30_30_colored_dice.png -append #{images_root_path}/cubes-and-dice.png")
   end
 
   desc "Create css file"
