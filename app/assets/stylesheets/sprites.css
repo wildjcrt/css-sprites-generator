@@ -1,5 +1,56 @@
+.cube {
+  background: no-repeat url('/cubes-and-dice.png');
+}
+
+.yellow {
+  background-size: 320px;
+  background-position: -192px 0px;
+}
+
+.blue {
+  background-size: 320px;
+  background-position: -32px 0px;
+}
+
+.dice {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+
+#dice1 {
+  background: no-repeat url('/cubes-and-dice.png');
+  background-position: 0px -124px;
+}
+
+#dice2 {
+  background: no-repeat url('/cubes-and-dice.png');
+  background-position: -30px -124px;
+}
+
+#dice3 {
+  background: no-repeat url('/cubes-and-dice.png');
+  background-position: -60px -124px;
+}
+
+#dice4 {
+  background: no-repeat url('/cubes-and-dice.png');
+  background-position: -90px -124px;
+}
+
+#dice5 {
+  background: no-repeat url('/cubes-and-dice.png');
+  background-position: -120px -124px;
+}
+
+#dice6 {
+  background: no-repeat url('/cubes-and-dice.png');
+  background-position: -150px -124px;
+}
+
 .resource {
   background: no-repeat center url('/eirakuchotori-resources.png');
+  background-size: 0px;
 }
 
 #street-1 {
@@ -73,42 +124,42 @@
 }
 
 #event-1908 {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -0px -182px;
   height: 182px;
 }
 
 #event-1920 {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -120px -182px;
   height: 182px;
 }
 
 #event-1923 {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -240px -182px;
   height: 182px;
 }
 
 #event-1931 {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -360px -182px;
   height: 182px;
 }
 
 #event-1945 {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -480px -182px;
   height: 182px;
 }
 
 #event-1947 {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat url('/eirakuchotori-resources.png');
   background-size: 1680px;
   background-position: -600px -182px;
   height: 182px;

@@ -54,8 +54,59 @@ namespace :sprites do
 
     File.open(css_path, "w") do |file|
       file.puts <<~CSS
+        .cube {
+          background: no-repeat url('/cubes-and-dice.png');
+        }
+
+        .yellow {
+          background-size: 320px;
+          background-position: -192px 0px;
+        }
+
+        .blue {
+          background-size: 320px;
+          background-position: -32px 0px;
+        }
+
+        .dice {
+          width: 30px;
+          height: 30px;
+          position: absolute;
+        }
+
+        #dice1 {
+          background: no-repeat url('/cubes-and-dice.png');
+          background-position: 0px -124px;
+        }
+
+        #dice2 {
+          background: no-repeat url('/cubes-and-dice.png');
+          background-position: -30px -124px;
+        }
+
+        #dice3 {
+          background: no-repeat url('/cubes-and-dice.png');
+          background-position: -60px -124px;
+        }
+
+        #dice4 {
+          background: no-repeat url('/cubes-and-dice.png');
+          background-position: -90px -124px;
+        }
+
+        #dice5 {
+          background: no-repeat url('/cubes-and-dice.png');
+          background-position: -120px -124px;
+        }
+
+        #dice6 {
+          background: no-repeat url('/cubes-and-dice.png');
+          background-position: -150px -124px;
+        }
+
         .resource {
           background: no-repeat center url('/eirakuchotori-resources.png');
+          background-size: 0px;
         }
 
       CSS
@@ -80,7 +131,7 @@ namespace :sprites do
       %w[1908 1920 1923 1931 1945 1947].each_with_index do |year, i|
         file.puts <<~CSS
           #event-#{year} {
-            background: no-repeat center url('/eirakuchotori-resources.png');
+            background: no-repeat url('/eirakuchotori-resources.png');
             background-size: #{background_size}px;
             background-position: -#{position_width*i}px -#{position_height}px;
             height: 182px;
