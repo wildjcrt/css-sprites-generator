@@ -159,7 +159,7 @@ namespace :sprites do
       CSS
 
       image_width = 900
-      board_width = 450
+      board_width = 468
       background_size = (board_width * bg_width.to_f / image_width).round
       position_height = ((background_size / bg_width.to_f) * start_height).round
       file.puts <<~CSS
