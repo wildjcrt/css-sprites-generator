@@ -1,5 +1,5 @@
 .cube {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   width: 30px;
   height: 32px;
 }
@@ -622,38 +622,38 @@
 }
 
 .dice1 {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   background-position: 0px -108px;
 }
 
 .dice2 {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   background-position: -30px -108px;
 }
 
 .dice3 {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   background-position: -60px -108px;
 }
 
 .dice4 {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   background-position: -90px -108px;
 }
 
 .dice5 {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   background-position: -120px -108px;
 }
 
 .dice6 {
-  background: no-repeat url('/cubes-and-dice.png');
+  background: no-repeat url("/cubes-and-dice.png");
   background-position: -150px -108px;
 }
 /* dice END */
 
 .resource {
-  background: no-repeat center url('/eirakuchotori-resources.png');
+  background: no-repeat center url("/eirakuchotori-resources.png");
   background-size: 0px;
 }
 
@@ -729,42 +729,42 @@
 }
 
 #event-1908 {
-  background: no-repeat url('/eirakuchotori-resources.png');
+  background: no-repeat url("/eirakuchotori-resources.png");
   background-size: 1680px;
   background-position: -0px -182px;
   height: 182px;
 }
 
 #event-1920 {
-  background: no-repeat url('/eirakuchotori-resources.png');
+  background: no-repeat url("/eirakuchotori-resources.png");
   background-size: 1680px;
   background-position: -120px -182px;
   height: 182px;
 }
 
 #event-1923 {
-  background: no-repeat url('/eirakuchotori-resources.png');
+  background: no-repeat url("/eirakuchotori-resources.png");
   background-size: 1680px;
   background-position: -240px -182px;
   height: 182px;
 }
 
 #event-1931 {
-  background: no-repeat url('/eirakuchotori-resources.png');
+  background: no-repeat url("/eirakuchotori-resources.png");
   background-size: 1680px;
   background-position: -360px -182px;
   height: 182px;
 }
 
 #event-1945 {
-  background: no-repeat url('/eirakuchotori-resources.png');
+  background: no-repeat url("/eirakuchotori-resources.png");
   background-size: 1680px;
   background-position: -480px -182px;
   height: 182px;
 }
 
 #event-1947 {
-  background: no-repeat url('/eirakuchotori-resources.png');
+  background: no-repeat url("/eirakuchotori-resources.png");
   background-size: 1680px;
   background-position: -600px -182px;
   height: 182px;
