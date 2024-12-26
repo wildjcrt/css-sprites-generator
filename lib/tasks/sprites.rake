@@ -56,6 +56,8 @@ namespace :sprites do
       file.puts <<~CSS
         .cube {
           background: no-repeat url('/cubes-and-dice.png');
+          width: 30px;
+          height: 32px;
         }
 
         .yellow {
