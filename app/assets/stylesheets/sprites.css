@@ -606,6 +606,7 @@
 }
 /* warehouse END */
 
+/* dice START */
 .dice {
   width: 30px;
   height: 30px;
@@ -641,12 +642,14 @@
   background: no-repeat url('/cubes-and-dice.png');
   background-position: -150px -124px;
 }
+/* dice END */
 
 .resource {
   background: no-repeat center url('/eirakuchotori-resources.png');
   background-size: 0px;
 }
 
+/* street and event START */
 #street-1 {
   background-size: 1680px;
   background-position: -0px 0px;
@@ -758,6 +761,7 @@
   background-position: -600px -182px;
   height: 182px;
 }
+/* street and event END */
 
 #warehouse-1, #warehouse-2 {
   background-size: 2294px;
