@@ -607,40 +607,46 @@
 /* warehouse END */
 
 /* dice START */
+#dice-area {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
 .dice {
   width: 30px;
   height: 30px;
-  position: absolute;
+  float: left;
 }
 
-#dice1 {
+.dice1 {
   background: no-repeat url('/cubes-and-dice.png');
-  background-position: 0px -124px;
+  background-position: 0px -108px;
 }
 
-#dice2 {
+.dice2 {
   background: no-repeat url('/cubes-and-dice.png');
-  background-position: -30px -124px;
+  background-position: -30px -108px;
 }
 
-#dice3 {
+.dice3 {
   background: no-repeat url('/cubes-and-dice.png');
-  background-position: -60px -124px;
+  background-position: -60px -108px;
 }
 
-#dice4 {
+.dice4 {
   background: no-repeat url('/cubes-and-dice.png');
-  background-position: -90px -124px;
+  background-position: -90px -108px;
 }
 
-#dice5 {
+.dice5 {
   background: no-repeat url('/cubes-and-dice.png');
-  background-position: -120px -124px;
+  background-position: -120px -108px;
 }
 
-#dice6 {
+.dice6 {
   background: no-repeat url('/cubes-and-dice.png');
-  background-position: -150px -124px;
+  background-position: -150px -108px;
 }
 /* dice END */
 
