@@ -771,6 +771,78 @@
 }
 /* street and event END */
 
+/* street merchant START */
+.merchant1 {
+  top: 184px;
+  left: 165px;
+}
+
+.merchant2 {
+  top: 184px;
+  left: 295px;
+}
+
+.merchant3 {
+  top: 184px;
+  left: 425px;
+}
+
+.merchant4 {
+  top: 184px;
+  left: 555px;
+}
+
+.merchant5 {
+  top: 184px;
+  left: 685px;
+}
+
+.merchant6 {
+  top: 184px;
+  left: 815px;
+}
+
+.merchant7 {
+  top: 184px;
+  left: 945px;
+}
+
+.merchant8 {
+  top: 374px;
+  left: 165px;
+}
+
+.merchant9 {
+  top: 374px;
+  left: 295px;
+}
+
+.merchant10 {
+  top: 374px;
+  left: 425px;
+}
+
+.merchant11 {
+  top: 374px;
+  left: 555px;
+}
+
+.merchant12 {
+  top: 374px;
+  left: 685px;
+}
+
+.merchant13 {
+  top: 374px;
+  left: 815px;
+}
+
+.merchant14 {
+  top: 374px;
+  left: 945px;
+}
+/* street merchant END */
+
 #warehouse-1, #warehouse-2 {
   background-size: 2294px;
   background-position: -208px -497px;
