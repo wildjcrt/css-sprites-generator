@@ -324,6 +324,288 @@
 }
 /* score END */
 
+/* warehouse START */
+.yellow.cube.Rice1 {
+  top: 88px;
+  left: 430px;
+}
+
+.yellow.cube.Rice2 {
+  top: 60px;
+  left: 430px;
+}
+
+.yellow.cube.Rice3 {
+  top: 32px;
+  left: 430px;
+}
+
+.yellow.cube.Rice4 {
+  top: 4px;
+  left: 430px;
+}
+
+.yellow.cube.Sugar1 {
+  top: 88px;
+  left: 463px;
+}
+
+.yellow.cube.Sugar2 {
+  top: 60px;
+  left: 463px;
+}
+
+.yellow.cube.Sugar3 {
+  top: 32px;
+  left: 463px;
+}
+
+.yellow.cube.Sugar4 {
+  top: 4px;
+  left: 463px;
+}
+
+.yellow.cube.Camphor1 {
+  top: 88px;
+  left: 496px;
+}
+
+.yellow.cube.Camphor2 {
+  top: 60px;
+  left: 496px;
+}
+
+.yellow.cube.Camphor3 {
+  top: 32px;
+  left: 496px;
+}
+
+.yellow.cube.Camphor4 {
+  top: 4px;
+  left: 496px;
+}
+
+.yellow.cube.Tea1 {
+  top: 88px;
+  left: 529px;
+}
+
+.yellow.cube.Tea2 {
+  top: 60px;
+  left: 529px;
+}
+
+.yellow.cube.Tea3 {
+  top: 32px;
+  left: 529px;
+}
+
+.yellow.cube.Tea4 {
+  top: 4px;
+  left: 529px;
+}
+
+.yellow.cube.Groceries1 {
+  top: 88px;
+  left: 567px;
+}
+
+.yellow.cube.Groceries2 {
+  top: 60px;
+  left: 567px;
+}
+
+.yellow.cube.Groceries3 {
+  top: 32px;
+  left: 567px;
+}
+
+.yellow.cube.Groceries4 {
+  top: 4px;
+  left: 567px;
+}
+
+.yellow.cube.Fabric1 {
+  top: 88px;
+  left: 597px;
+}
+
+.yellow.cube.Fabric2 {
+  top: 60px;
+  left: 597px;
+}
+
+.yellow.cube.Fabric3 {
+  top: 32px;
+  left: 597px;
+}
+
+.yellow.cube.Fabric4 {
+  top: 4px;
+  left: 597px;
+}
+
+.yellow.cube.Ginseng1 {
+  top: 88px;
+  left: 627px;
+}
+
+.yellow.cube.Ginseng2 {
+  top: 60px;
+  left: 627px;
+}
+
+.yellow.cube.Ginseng3 {
+  top: 32px;
+  left: 627px;
+}
+
+.yellow.cube.Ginseng4 {
+  top: 4px;
+  left: 627px;
+}
+
+.blue.cube.Rice1 {
+  top: 838px;
+  left: 430px;
+}
+
+.blue.cube.Rice2 {
+  top: 810px;
+  left: 430px;
+}
+
+.blue.cube.Rice3 {
+  top: 782px;
+  left: 430px;
+}
+
+.blue.cube.Rice4 {
+  top: 754px;
+  left: 430px;
+}
+
+.blue.cube.Sugar1 {
+  top: 838px;
+  left: 463px;
+}
+
+.blue.cube.Sugar2 {
+  top: 810px;
+  left: 463px;
+}
+
+.blue.cube.Sugar3 {
+  top: 782px;
+  left: 463px;
+}
+
+.blue.cube.Sugar4 {
+  top: 754px;
+  left: 463px;
+}
+
+.blue.cube.Camphor1 {
+  top: 838px;
+  left: 496px;
+}
+
+.blue.cube.Camphor2 {
+  top: 810px;
+  left: 496px;
+}
+
+.blue.cube.Camphor3 {
+  top: 782px;
+  left: 496px;
+}
+
+.blue.cube.Camphor4 {
+  top: 754px;
+  left: 496px;
+}
+
+.blue.cube.Tea1 {
+  top: 838px;
+  left: 529px;
+}
+
+.blue.cube.Tea2 {
+  top: 810px;
+  left: 529px;
+}
+
+.blue.cube.Tea3 {
+  top: 782px;
+  left: 529px;
+}
+
+.blue.cube.Tea4 {
+  top: 754px;
+  left: 529px;
+}
+
+.blue.cube.Groceries1 {
+  top: 838px;
+  left: 567px;
+}
+
+.blue.cube.Groceries2 {
+  top: 810px;
+  left: 567px;
+}
+
+.blue.cube.Groceries3 {
+  top: 782px;
+  left: 567px;
+}
+
+.blue.cube.Groceries4 {
+  top: 754px;
+  left: 567px;
+}
+
+.blue.cube.Fabric1 {
+  top: 838px;
+  left: 597px;
+}
+
+.blue.cube.Fabric2 {
+  top: 810px;
+  left: 597px;
+}
+
+.blue.cube.Fabric3 {
+  top: 782px;
+  left: 597px;
+}
+
+.blue.cube.Fabric4 {
+  top: 754px;
+  left: 597px;
+}
+
+.blue.cube.Ginseng1 {
+  top: 838px;
+  left: 627px;
+}
+
+.blue.cube.Ginseng2 {
+  top: 810px;
+  left: 627px;
+}
+
+.blue.cube.Ginseng3 {
+  top: 782px;
+  left: 627px;
+}
+
+.blue.cube.Ginseng4 {
+  top: 754px;
+  left: 627px;
+}
+/* warehouse END */
+
 .dice {
   width: 30px;
   height: 30px;
@@ -478,8 +760,8 @@
 }
 
 #warehouse-1, #warehouse-2 {
-  background-size: 2291px;
-  background-position: -207px -496px;
+  background-size: 2294px;
+  background-position: -208px -497px;
 }
 
 #scores-goals-rest {
