@@ -20,7 +20,7 @@ gem "jbuilder"
 # Use scss
 gem "dartsass-rails"
 
-gem "tailwindcss-rails", "~> 3.0"
+gem "tailwindcss-rails", "~> 3.1"
 
 gem "image_processing"
 
